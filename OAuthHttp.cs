@@ -293,7 +293,7 @@ namespace OAuth
                                     "\"; filename=\"" + Path.GetFileName(s) + "\"\r\n" + "Content-type: " + contentType + "\r\n\r\n";
                 fi[i] = new FileInfo(s);
                 postDataSize += fi[i].Length;
-                headerLength += header.Length;
+                headerLength += System.Text.Encoding.UTF8.GetBytes(header).Length;
                 fileHeaders.Add(header);
                 i++;
             }

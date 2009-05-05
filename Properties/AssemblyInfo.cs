@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SpringnoteSharp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NCSOFT")]
+[assembly: AssemblyCompany("deepblue")]
 [assembly: AssemblyProduct("SpringnoteSharp")]
-[assembly: AssemblyCopyright("Copyright © NCSOFT  2009")]
+[assembly: AssemblyCopyright("Copyright ©deepblue 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
